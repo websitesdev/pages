@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/websitesdev/pages/homepage/static/css/main.318fc077.css",
+    "main.js": "/websitesdev/pages/homepage/static/js/main.a193aaa6.js",
+    "static/media/2.png": "/websitesdev/pages/homepage/static/media/2.fc01e9cf2a220b72562c.png",
+    "static/media/logo-transparent-png.png": "/websitesdev/pages/homepage/static/media/logo-transparent-png.957ee6cc56deb3d4b13a.png",
+    "static/media/5.jpg": "/websitesdev/pages/homepage/static/media/5.34169abf2d417858685b.jpg",
+    "static/media/slick.svg": "/websitesdev/pages/homepage/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/websitesdev/pages/homepage/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/websitesdev/pages/homepage/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/websitesdev/pages/homepage/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/websitesdev/pages/homepage/index.html",
+    "main.318fc077.css.map": "/websitesdev/pages/homepage/static/css/main.318fc077.css.map",
+    "main.a193aaa6.js.map": "/websitesdev/pages/homepage/static/js/main.a193aaa6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.318fc077.css",
+    "static/js/main.a193aaa6.js"
+  ]
+}
