@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.main {
+  background: rgb(233, 224, 224);
+  height: 75vh;
+  background-size: auto;
+  overflow: hidden;
+  width: 100vw;
+}
+@media (min-width: 48em) {
+  .main {
+    background: rgb(233, 224, 224);
+    height: 70vh;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+.main .content {
+  margin: 5rem;
+}
+@media (min-width: 48em) {
+  .main .content {
+    margin: 12rem;
+  }
+}
+.main .content h1 {
+  font-size: 3rem;
+  color: #867a74;
+  text-shadow: 2px 2px 2px #867a74;
+  width: 100px;
+}
+@media (min-width: 48em) {
+  .main .content h1 {
+    font-size: 3rem;
+    color: #867a74;
+    text-shadow: 2px 2px 2px #867a74;
+  }
+}
+.main .content h3 {
+  margin-top: 1rem;
+  color: #80594c;
+}
+.main .content button {
+  font-weight: 500;
+  color: #867a74;
+  background-color: rgb(219, 198, 233);
+  border: 2px solid #867a74;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  box-shadow: 0 0 0.5em 0 #867a74;
+}
+.main .content button:active {
+  transform: scale(0.98);
+  border-radius: 0;
+}
+.main .content button:hover {
+  box-shadow: 0 0 0.75em 0 #867a74;
+}/*# sourceMappingURL=About.module.css.map */

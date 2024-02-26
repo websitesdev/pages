@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+$allura-font:'Allura', cursive;
+
+$bg:rgb(255,255,255);
+
+$bg2:rgb(255, 255, 255);
+
+$text :rgb(15,15,15);
+
+$text2:#80594c;
+$primary:#867a74;
+$paragraph:#523733;
+
+$spacing-sm:8px;
+$spacing-md:16px;
+$spacing-lg:32px;
+
+$header-height:72px;
+
+$sm :37.5em;
+$md:48em;
+$lg:64em;
+$xl:75em;
+
+
+@mixin breakpoint($point){
+    @if $point == md
+    {
+        @media (min-width:$md){
+            @content;
+        }
+
+    }
+}

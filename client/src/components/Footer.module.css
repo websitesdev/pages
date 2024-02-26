@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.footer {
+  color: #80594c;
+  padding: 1rem 2rem;
+  background: rgb(233, 224, 224);
+}
+@media (min-width: 48em) {
+  .footer {
+    color: #80594c;
+    padding: 1rem 4rem;
+    background: rgb(233, 224, 224);
+  }
+}
+.footer .footer_content {
+  background: rgb(233, 224, 224);
+}
+@media (min-width: 48em) {
+  .footer .footer_content {
+    background: rgb(233, 224, 224);
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media (min-width: 48em) {
+  .footer {
+    background: rgb(233, 224, 224);
+    color: #80594c;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+.footer a {
+  list-style: none;
+  text-decoration: none;
+  color: #80594c;
+}
+.footer p {
+  color: #523733;
+}
+.footer .left .logo {
+  width: 200px;
+  height: 70px;
+}
+@media (min-width: 48em) {
+  .footer .left .logo {
+    width: 200px;
+    height: 70px;
+  }
+}
+@media (min-width: 48em) {
+  .footer .left {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200px;
+  }
+}
+@media (min-width: 48em) {
+  .footer .center {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 400px;
+  }
+}
+.footer .center .links {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+@media (min-width: 48em) {
+  .footer .center .links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
+.footer .center .links .nav_item {
+  padding: 0.2rem 0;
+}
+@media (min-width: 48em) {
+  .footer .right {
+    height: 190px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 300px;
+  }
+}
+.footer .right .links {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+@media (min-width: 48em) {
+  .footer .right .links {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+}
+.footer .right .links .nav_item {
+  padding: 0.4rem 0;
+}/*# sourceMappingURL=Footer.module.css.map */

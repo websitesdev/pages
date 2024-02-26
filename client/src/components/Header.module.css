@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.header {
+  background: rgb(255, 255, 255);
+  color: #80594c;
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  box-shadow: 0 1px 5px #867a74;
+}
+@media (min-width: 48em) {
+  .header {
+    background: rgb(255, 255, 255);
+    color: #80594c;
+    position: fixed;
+    z-index: 1000;
+    box-shadow: 0 1px 5px #867a74;
+  }
+}
+.header_content {
+  margin: 0 auto;
+  padding: 0 16px;
+  transition: 0.3s ease padding;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+@media (min-width: 48em) {
+  .header_content {
+    padding: 0 32px;
+  }
+}
+.header_content > div {
+  flex: 1;
+  white-space: nowrap;
+}
+.header_content > div:nth-child(2) {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  margin-right: 16px;
+}
+.header_content > div:last-of-type {
+  display: flex;
+  justify-content: flex-end;
+  flex: 0;
+}
+.header_button_container {
+  display: none;
+}
+@media (min-width: 48em) {
+  .header_button_container {
+    display: initial;
+  }
+}
+.header_toggler {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+@media (min-width: 48em) {
+  .header_toggler {
+    display: none;
+  }
+}
+.header_toggler > svg {
+  display: block;
+  font-size: 32px;
+}
+
+.logo {
+  width: 200px;
+  height: 70px;
+}
+
+.nav {
+  width: 100%;
+  position: fixed;
+  top: 72px;
+  right: -100%;
+  background: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 16px 0;
+}
+.nav--open {
+  transition: 0.2s ease right;
+  right: 0;
+}
+.nav_item {
+  display: block;
+  padding: 16px;
+  text-decoration: none;
+  color: inherit;
+  height: 100%;
+  transition: 0.3s ease color;
+}
+.nav_item:hover {
+  color: #867a74;
+}
+@media (min-width: 48em) {
+  .nav {
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background: initial;
+    width: 100%;
+    padding: 0;
+  }
+  .nav_item {
+    padding: 0 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.nav_button_container {
+  padding: 16px;
+}
+@media (min-width: 48em) {
+  .nav_button_container {
+    display: none;
+  }
+}
+
+.button {
+  font-weight: 500;
+  color: #867a74;
+  border: 2px solid #867a74;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 0 0 0.5em 0 #867a74;
+}
+.button:active {
+  transform: scale(0.98);
+  border-radius: 0;
+}
+.button:hover {
+  box-shadow: 0 0 0.75em 0 #867a74;
+}/*# sourceMappingURL=Header.module.css.map */

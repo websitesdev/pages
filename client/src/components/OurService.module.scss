@@ -1,0 +1,77 @@
+@import "./../styles/variables.scss";
+
+
+.service{
+    //height: auto;
+    margin: 3rem;
+    @include breakpoint(md){
+       
+        //height: auto;
+        margin: 3rem;
+    }
+    h1{
+        text-align: center;
+        margin: 2rem;
+            text-align: center;
+            font-size: 3rem;
+            color: $primary;
+            text-shadow: 2px 2px 2px $primary;
+    }
+   .service_card{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    @include breakpoint(md){
+     
+    margin:3rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    }
+   
+    
+    .card{
+        width:320px;
+        height: 420px;
+        overflow: hidden;
+        margin:1rem;
+        border: 1px solid black;
+     
+        padding:2rem;
+      
+        border-radius: 10px;
+        box-shadow: 0 0 0.75em 0 $primary;
+
+        img{
+            margin-left: 70px;
+            width:120px;
+            height:120px;
+            border-radius: 10px;
+        }
+   
+        button{
+            font-weight: 500;
+            color:$primary;
+            background-color: rgb(219, 198, 233);
+            border:2px solid $primary;
+            padding:$spacing-sm $spacing-md;
+            border-radius: calc($spacing-sm/2);
+            cursor:pointer;
+            margin-top: 2rem;
+            box-shadow: 0 0 0.5em 0 $primary;
+            margin-left: 80px;
+        
+            &:active{
+                transform:scale(0.98);
+                border-radius: 0;
+            }
+            &:hover{
+                box-shadow: 0 0 0.75em 0 $primary;
+            }
+        }
+    }
+}
+}

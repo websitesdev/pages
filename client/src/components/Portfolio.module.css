@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.container {
+  width: 90vw;
+  height: auto;
+}
+@media (min-width: 48em) {
+  .container {
+    width: 90vw;
+    height: auto;
+    margin-left: 6rem;
+  }
+}
+.container .titleCarousel {
+  text-align: center;
+  font-size: 2rem;
+  color: #867a74;
+  text-shadow: 2px 2px 2px #867a74;
+}
+@media (min-width: 48em) {
+  .container .titleCarousel {
+    margin: 2rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #867a74;
+    text-shadow: 2px 2px 2px #867a74;
+  }
+}
+.container .card .cardBody {
+  border-radius: 10px;
+  margin: 1rem 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 420px;
+  overflow: hidden;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 0 0 0.75em 0 #867a74;
+}
+.container .card .cardBody img {
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+}/*# sourceMappingURL=Portfolio.module.css.map */

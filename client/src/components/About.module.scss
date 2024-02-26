@@ -1,0 +1,60 @@
+@import "./../styles/variables.scss";
+
+
+.main{
+    background:rgb(233, 224, 224); 
+    height:75vh;
+    background-size: auto;
+    overflow: hidden;
+    width:100vw;
+    @include breakpoint(md) {
+        background:rgb(233, 224, 224); 
+        height:70vh;
+        background-size: cover;
+        overflow: hidden;
+        width:100%;
+    }
+    .content{
+        margin:5rem;
+        @include breakpoint(md) {
+            margin:12rem;
+        }
+        h1{
+            font-size: 3rem;
+            color:$primary;
+            text-shadow: 2px 2px 2px $primary;
+            width: 100px;
+            @include breakpoint(md) {
+                font-size: 3rem;
+                color:$primary;
+                text-shadow: 2px 2px 2px $primary;
+            }
+        }
+        h3{
+            margin-top:1rem;
+            color:$text2;
+        }
+        button{
+            font-weight: 500;
+            color:$primary;
+            background-color: rgb(219, 198, 233);
+            border:2px solid $primary;
+            padding:$spacing-sm $spacing-md;
+            border-radius: calc($spacing-sm/2);
+            cursor:pointer;
+            margin-top: 2rem;
+            box-shadow: 0 0 0.5em 0 $primary;
+        
+            &:active{
+                transform:scale(0.98);
+                border-radius: 0;
+            }
+            &:hover{
+                box-shadow: 0 0 0.75em 0 $primary;
+            }
+        }
+    
+        
+    }
+ 
+}

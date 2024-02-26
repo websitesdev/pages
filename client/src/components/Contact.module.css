@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.contact {
+  margin: 4rem;
+}
+.contact h1 {
+  text-align: center;
+  margin: 2rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #867a74;
+  text-shadow: 2px 2px 2px #867a74;
+}
+.contact .form {
+  margin: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 4rem;
+  padding: 3rem;
+}
+.contact .form input {
+  margin: 1rem;
+}
+.contact .form button {
+  font-weight: 500;
+  color: #867a74;
+  background-color: rgb(219, 198, 233);
+  border: 2px solid #867a74;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 2rem;
+  box-shadow: 0 0 0.5em 0 #867a74;
+  margin-left: 30px;
+}
+.contact .form button:active {
+  transform: scale(0.98);
+  border-radius: 0;
+}
+.contact .form button:hover {
+  box-shadow: 0 0 0.75em 0 #867a74;
+}/*# sourceMappingURL=Contact.module.css.map */
