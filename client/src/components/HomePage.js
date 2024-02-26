@@ -5,7 +5,7 @@ import Portfolio from './Portfolio'
 
 export const HomePage = () => {
   return (
-    <div id="homepage">
+    <div>
         <AboutUS/>
         <OurService/>
         <Portfolio/>

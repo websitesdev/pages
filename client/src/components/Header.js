@@ -19,7 +19,7 @@ const Header = () => {
           <nav
             className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}
           >
-            <Link to="/homepage" className={styles.nav_item} id="homepage">
+            <Link to="/" className={styles.nav_item} id="homepage">
               Acasa
             </Link>
             <Link to="/aboutus" className={styles.nav_item} id="aboutus">
