@@ -31,7 +31,7 @@ const Header = () => {
             <Link to="/portfolio" className={styles.nav_item} id="portofoliu">
               Portofoliu
             </Link>
-            <a href="+40729436992" className={styles.nav_item}>
+            <a href="tel:+40729436992" className={styles.nav_item}>
               +40729436992
             </a>
             <Link to="/contact">

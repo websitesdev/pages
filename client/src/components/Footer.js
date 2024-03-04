@@ -43,13 +43,14 @@ const Footer = () => {
         <p>Contact</p>
           <nav className={styles.links}>
            
-            <a className={styles.nav_item} href={"/"}>
+            <a href="tel:+40729436991" className={styles.nav_item}>
               +40729436991
             </a>
+           
             <a className={styles.nav_item} href={"/"}>
               contact@websiteconcept.ro
             </a>
-            <a className={styles.nav_item} href={"/"}>
+            <a className={styles.nav_item} href="https://www.instagram.com/webdesign.concept">
             <FaInstagram className={styles.instagram}/>
             </a>
             
